@@ -13,6 +13,7 @@
 		FA03F28522C0050E00FC0179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA03F28422C0050E00FC0179 /* Assets.xcassets */; };
 		FA03F28822C0050E00FC0179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA03F28622C0050E00FC0179 /* LaunchScreen.storyboard */; };
 		FA03F29022C005F500FC0179 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F28F22C005F500FC0179 /* Note.swift */; };
+		FA03F2B022C4106400FC0179 /* NoteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03F2AF22C4106400FC0179 /* NoteExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA03F28722C0050E00FC0179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA03F28922C0050E00FC0179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA03F28F22C005F500FC0179 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		FA03F2AF22C4106400FC0179 /* NoteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FA03F28622C0050E00FC0179 /* LaunchScreen.storyboard */,
 				FA03F28922C0050E00FC0179 /* Info.plist */,
 				FA03F28F22C005F500FC0179 /* Note.swift */,
+				FA03F2AF22C4106400FC0179 /* NoteExtension.swift */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA03F28022C0050C00FC0179 /* ViewController.swift in Sources */,
+				FA03F2B022C4106400FC0179 /* NoteExtension.swift in Sources */,
 				FA03F27E22C0050C00FC0179 /* AppDelegate.swift in Sources */,
 				FA03F29022C005F500FC0179 /* Note.swift in Sources */,
 			);
